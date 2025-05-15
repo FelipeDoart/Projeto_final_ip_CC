@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def ola():
     return render_template('index.html')
-@app.route('/sobre')
+@app.route('/Sobre')
 def sobre():
     return render_template('sobre.html')
 
